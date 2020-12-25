@@ -59,7 +59,7 @@
             // 
             this.dtpThoiGian.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpThoiGian.Location = new System.Drawing.Point(383, 58);
-            this.dtpThoiGian.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpThoiGian.Margin = new System.Windows.Forms.Padding(4);
             this.dtpThoiGian.Name = "dtpThoiGian";
             this.dtpThoiGian.Size = new System.Drawing.Size(160, 22);
             this.dtpThoiGian.TabIndex = 14;
@@ -67,7 +67,7 @@
             // txtSoLuong
             // 
             this.txtSoLuong.Location = new System.Drawing.Point(528, 15);
-            this.txtSoLuong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoLuong.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoLuong.Name = "txtSoLuong";
             this.txtSoLuong.Size = new System.Drawing.Size(68, 22);
             this.txtSoLuong.TabIndex = 13;
@@ -76,7 +76,7 @@
             // txtDonGia
             // 
             this.txtDonGia.Location = new System.Drawing.Point(99, 58);
-            this.txtDonGia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDonGia.Margin = new System.Windows.Forms.Padding(4);
             this.txtDonGia.Name = "txtDonGia";
             this.txtDonGia.ReadOnly = true;
             this.txtDonGia.Size = new System.Drawing.Size(132, 22);
@@ -136,7 +136,7 @@
             // 
             this.cmbTenThucDon.FormattingEnabled = true;
             this.cmbTenThucDon.Location = new System.Drawing.Point(312, 15);
-            this.cmbTenThucDon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbTenThucDon.Margin = new System.Windows.Forms.Padding(4);
             this.cmbTenThucDon.Name = "cmbTenThucDon";
             this.cmbTenThucDon.Size = new System.Drawing.Size(99, 24);
             this.cmbTenThucDon.TabIndex = 11;
@@ -147,7 +147,7 @@
             this.cmbIdBan.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
             this.cmbIdBan.FormattingEnabled = true;
             this.cmbIdBan.Location = new System.Drawing.Point(99, 15);
-            this.cmbIdBan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbIdBan.Margin = new System.Windows.Forms.Padding(4);
             this.cmbIdBan.Name = "cmbIdBan";
             this.cmbIdBan.Size = new System.Drawing.Size(79, 24);
             this.cmbIdBan.TabIndex = 5;
@@ -157,7 +157,7 @@
             this.btnThemMoi.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnThemMoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemMoi.Location = new System.Drawing.Point(45, 111);
-            this.btnThemMoi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThemMoi.Margin = new System.Windows.Forms.Padding(4);
             this.btnThemMoi.Name = "btnThemMoi";
             this.btnThemMoi.Size = new System.Drawing.Size(100, 28);
             this.btnThemMoi.TabIndex = 16;
@@ -170,7 +170,7 @@
             this.btnHuy.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnHuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuy.Location = new System.Drawing.Point(480, 111);
-            this.btnHuy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHuy.Margin = new System.Windows.Forms.Padding(4);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(103, 28);
             this.btnHuy.TabIndex = 20;
@@ -183,7 +183,7 @@
             this.btnLuu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLuu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuu.Location = new System.Drawing.Point(369, 111);
-            this.btnLuu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(4);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(103, 28);
             this.btnLuu.TabIndex = 19;
@@ -198,7 +198,7 @@
             this.btnSua.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.Location = new System.Drawing.Point(153, 111);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(4);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(100, 28);
             this.btnSua.TabIndex = 17;
@@ -211,7 +211,7 @@
             this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.Location = new System.Drawing.Point(261, 111);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(100, 28);
             this.btnXoa.TabIndex = 18;
@@ -223,10 +223,10 @@
             // 
             this.groupBox1.Controls.Add(this.dgvGoiMon);
             this.groupBox1.Location = new System.Drawing.Point(17, 146);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(931, 286);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(931, 358);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             // 
@@ -247,11 +247,11 @@
             this.dgvGoiMon.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvGoiMon.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.dgvGoiMon.Location = new System.Drawing.Point(4, 19);
-            this.dgvGoiMon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvGoiMon.Margin = new System.Windows.Forms.Padding(4);
             this.dgvGoiMon.Name = "dgvGoiMon";
             this.dgvGoiMon.ReadOnly = true;
             this.dgvGoiMon.RowHeadersWidth = 51;
-            this.dgvGoiMon.Size = new System.Drawing.Size(923, 263);
+            this.dgvGoiMon.Size = new System.Drawing.Size(923, 335);
             this.dgvGoiMon.TabIndex = 16;
             // 
             // IdBan
@@ -322,9 +322,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmbTenThucDon);
             this.Controls.Add(this.cmbIdBan);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "uctMonDaGoi";
-            this.Size = new System.Drawing.Size(969, 436);
+            this.Size = new System.Drawing.Size(969, 508);
             this.Load += new System.EventHandler(this.uctMonDaGoi_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvGoiMon)).EndInit();

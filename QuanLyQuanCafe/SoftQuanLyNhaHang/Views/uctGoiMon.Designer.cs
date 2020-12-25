@@ -55,31 +55,32 @@
             // 
             // ctxtnenuTabDanhSachBan
             // 
+            this.ctxtnenuTabDanhSachBan.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.ctxtnenuTabDanhSachBan.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.hiểnThịBànChưaCóNgườiToolStripMenuItem,
             this.hiểnThịBànCóNgườiToolStripMenuItem,
             this.hiểnThịTấtCảBànToolStripMenuItem});
             this.ctxtnenuTabDanhSachBan.Name = "ctxtnenuTabDanhSachBan";
-            this.ctxtnenuTabDanhSachBan.Size = new System.Drawing.Size(219, 70);
+            this.ctxtnenuTabDanhSachBan.Size = new System.Drawing.Size(259, 76);
             // 
             // hiểnThịBànChưaCóNgườiToolStripMenuItem
             // 
             this.hiểnThịBànChưaCóNgườiToolStripMenuItem.Name = "hiểnThịBànChưaCóNgườiToolStripMenuItem";
-            this.hiểnThịBànChưaCóNgườiToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.hiểnThịBànChưaCóNgườiToolStripMenuItem.Size = new System.Drawing.Size(258, 24);
             this.hiểnThịBànChưaCóNgườiToolStripMenuItem.Text = "Hiển thị bàn chưa có người";
             this.hiểnThịBànChưaCóNgườiToolStripMenuItem.Click += new System.EventHandler(this.hiểnThịBànChưaCóNgườiToolStripMenuItem_Click);
             // 
             // hiểnThịBànCóNgườiToolStripMenuItem
             // 
             this.hiểnThịBànCóNgườiToolStripMenuItem.Name = "hiểnThịBànCóNgườiToolStripMenuItem";
-            this.hiểnThịBànCóNgườiToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.hiểnThịBànCóNgườiToolStripMenuItem.Size = new System.Drawing.Size(258, 24);
             this.hiểnThịBànCóNgườiToolStripMenuItem.Text = "Hiển thị bàn có người";
             this.hiểnThịBànCóNgườiToolStripMenuItem.Click += new System.EventHandler(this.hiểnThịBànCóNgườiToolStripMenuItem_Click);
             // 
             // hiểnThịTấtCảBànToolStripMenuItem
             // 
             this.hiểnThịTấtCảBànToolStripMenuItem.Name = "hiểnThịTấtCảBànToolStripMenuItem";
-            this.hiểnThịTấtCảBànToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.hiểnThịTấtCảBànToolStripMenuItem.Size = new System.Drawing.Size(258, 24);
             this.hiểnThịTấtCảBànToolStripMenuItem.Text = "Cập nhật danh sách bàn";
             this.hiểnThịTấtCảBànToolStripMenuItem.Click += new System.EventHandler(this.hiểnThịTấtCảBànToolStripMenuItem_Click);
             // 
@@ -97,25 +98,29 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Enabled = false;
-            this.label1.Location = new System.Drawing.Point(3, 11);
+            this.label1.Location = new System.Drawing.Point(4, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.Size = new System.Drawing.Size(0, 17);
             this.label1.TabIndex = 2;
             // 
             // pnlGoiMon
             // 
-            this.pnlGoiMon.Location = new System.Drawing.Point(477, 249);
+            this.pnlGoiMon.Location = new System.Drawing.Point(636, 306);
+            this.pnlGoiMon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlGoiMon.Name = "pnlGoiMon";
-            this.pnlGoiMon.Size = new System.Drawing.Size(784, 316);
+            this.pnlGoiMon.Size = new System.Drawing.Size(1045, 493);
             this.pnlGoiMon.TabIndex = 16;
             // 
             // lvDanhSachBan
             // 
             this.lvDanhSachBan.ContextMenuStrip = this.ctxtnenuTabDanhSachBan;
+            this.lvDanhSachBan.HideSelection = false;
             this.lvDanhSachBan.LargeImageList = this.imageList1;
-            this.lvDanhSachBan.Location = new System.Drawing.Point(0, 11);
+            this.lvDanhSachBan.Location = new System.Drawing.Point(0, 14);
+            this.lvDanhSachBan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lvDanhSachBan.Name = "lvDanhSachBan";
-            this.lvDanhSachBan.Size = new System.Drawing.Size(471, 554);
+            this.lvDanhSachBan.Size = new System.Drawing.Size(627, 785);
             this.lvDanhSachBan.TabIndex = 0;
             this.lvDanhSachBan.UseCompatibleStateImageBehavior = false;
             this.lvDanhSachBan.SelectedIndexChanged += new System.EventHandler(this.lvDanhSachBan_SelectedIndexChanged);
@@ -127,9 +132,10 @@
             this.btnMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMenu.ImageIndex = 3;
             this.btnMenu.ImageList = this.imageList1;
-            this.btnMenu.Location = new System.Drawing.Point(556, 185);
+            this.btnMenu.Location = new System.Drawing.Point(741, 228);
+            this.btnMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(120, 58);
+            this.btnMenu.Size = new System.Drawing.Size(160, 71);
             this.btnMenu.TabIndex = 44;
             this.btnMenu.Text = "Menu";
             this.btnMenu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -141,9 +147,10 @@
             this.btnIn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIn.Image = ((System.Drawing.Image)(resources.GetObject("btnIn.Image")));
             this.btnIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIn.Location = new System.Drawing.Point(934, 185);
+            this.btnIn.Location = new System.Drawing.Point(1245, 228);
+            this.btnIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnIn.Name = "btnIn";
-            this.btnIn.Size = new System.Drawing.Size(120, 58);
+            this.btnIn.Size = new System.Drawing.Size(160, 71);
             this.btnIn.TabIndex = 41;
             this.btnIn.Text = "In hóa đơn";
             this.btnIn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -156,9 +163,10 @@
             this.btnGoimon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGoimon.ImageKey = "catering (1).png";
             this.btnGoimon.ImageList = this.imageList1;
-            this.btnGoimon.Location = new System.Drawing.Point(682, 185);
+            this.btnGoimon.Location = new System.Drawing.Point(909, 228);
+            this.btnGoimon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGoimon.Name = "btnGoimon";
-            this.btnGoimon.Size = new System.Drawing.Size(120, 58);
+            this.btnGoimon.Size = new System.Drawing.Size(160, 71);
             this.btnGoimon.TabIndex = 42;
             this.btnGoimon.Text = "Gọi món";
             this.btnGoimon.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -171,9 +179,10 @@
             this.btnTinhtien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTinhtien.ImageKey = "21216-200.png";
             this.btnTinhtien.ImageList = this.imageList1;
-            this.btnTinhtien.Location = new System.Drawing.Point(808, 185);
+            this.btnTinhtien.Location = new System.Drawing.Point(1077, 228);
+            this.btnTinhtien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTinhtien.Name = "btnTinhtien";
-            this.btnTinhtien.Size = new System.Drawing.Size(120, 58);
+            this.btnTinhtien.Size = new System.Drawing.Size(160, 71);
             this.btnTinhtien.TabIndex = 43;
             this.btnTinhtien.Text = "Tính tiền";
             this.btnTinhtien.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -183,9 +192,11 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dgvGoiMon);
-            this.groupBox1.Location = new System.Drawing.Point(477, 3);
+            this.groupBox1.Location = new System.Drawing.Point(636, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(710, 124);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(948, 153);
             this.groupBox1.TabIndex = 45;
             this.groupBox1.TabStop = false;
             // 
@@ -198,18 +209,22 @@
             this.dgvGoiMon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvGoiMon.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.dgvGoiMon.Location = new System.Drawing.Point(0, 0);
+            this.dgvGoiMon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvGoiMon.Name = "dgvGoiMon";
             this.dgvGoiMon.ReadOnly = true;
-            this.dgvGoiMon.Size = new System.Drawing.Size(711, 120);
+            this.dgvGoiMon.RowHeadersWidth = 51;
+            this.dgvGoiMon.Size = new System.Drawing.Size(948, 148);
             this.dgvGoiMon.TabIndex = 38;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.lblTongTien);
-            this.groupBox2.Location = new System.Drawing.Point(875, 133);
+            this.groupBox2.Location = new System.Drawing.Point(1167, 164);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(313, 33);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(417, 41);
             this.groupBox2.TabIndex = 46;
             this.groupBox2.TabStop = false;
             // 
@@ -218,9 +233,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label2.ForeColor = System.Drawing.Color.DarkGreen;
-            this.label2.Location = new System.Drawing.Point(6, 14);
+            this.label2.Location = new System.Drawing.Point(8, 17);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(156, 16);
+            this.label2.Size = new System.Drawing.Size(193, 20);
             this.label2.TabIndex = 51;
             this.label2.Text = "Tổng tiền thanh toán :";
             // 
@@ -229,14 +245,15 @@
             this.lblTongTien.AutoSize = true;
             this.lblTongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblTongTien.ForeColor = System.Drawing.Color.Red;
-            this.lblTongTien.Location = new System.Drawing.Point(169, 14);
+            this.lblTongTien.Location = new System.Drawing.Point(225, 17);
+            this.lblTongTien.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTongTien.Name = "lblTongTien";
-            this.lblTongTien.Size = new System.Drawing.Size(0, 16);
+            this.lblTongTien.Size = new System.Drawing.Size(0, 20);
             this.lblTongTien.TabIndex = 50;
             // 
             // uctGoiMon
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -247,8 +264,9 @@
             this.Controls.Add(this.pnlGoiMon);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lvDanhSachBan);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "uctGoiMon";
-            this.Size = new System.Drawing.Size(1264, 568);
+            this.Size = new System.Drawing.Size(1685, 803);
             this.Load += new System.EventHandler(this.uctGoiMon_Load);
             this.ctxtnenuTabDanhSachBan.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);

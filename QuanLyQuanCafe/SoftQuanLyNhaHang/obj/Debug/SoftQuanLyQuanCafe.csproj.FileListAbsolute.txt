@@ -23,3 +23,4 @@ C:\Users\minht\OneDrive\Desktop\CoffeeManagementSystem\QuanLyQuanCafe\SoftQuanLy
 C:\Users\minht\OneDrive\Desktop\CoffeeManagementSystem\QuanLyQuanCafe\SoftQuanLyNhaHang\obj\Debug\SoftQuanLyNhaHang.exe
 C:\Users\minht\OneDrive\Desktop\CoffeeManagementSystem\QuanLyQuanCafe\SoftQuanLyNhaHang\obj\Debug\SoftQuanLyNhaHang.pdb
 C:\Users\minht\OneDrive\Desktop\CoffeeManagementSystem\QuanLyQuanCafe\SoftQuanLyNhaHang\obj\Debug\SoftQuanLyNhaHang.uctMain.resources
+C:\Users\minht\OneDrive\Desktop\CoffeeManagementSystem\QuanLyQuanCafe\SoftQuanLyNhaHang\obj\Debug\SoftQuanLyNhaHang.uctHoaDon.resources

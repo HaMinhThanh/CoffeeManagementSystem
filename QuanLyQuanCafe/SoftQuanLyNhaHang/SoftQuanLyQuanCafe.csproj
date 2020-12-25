@@ -69,6 +69,12 @@
     <Compile Include="Models\PhanQuyenMod.cs" />
     <Compile Include="Models\ThucDonMod.cs" />
     <Compile Include="Models\UserControl.cs" />
+    <Compile Include="Views\uctHoaDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\uctHoaDon.Designer.cs">
+      <DependentUpon>uctHoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\uctMain.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -200,6 +206,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\uctGoiMon.resx">
       <DependentUpon>uctGoiMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\uctHoaDon.resx">
+      <DependentUpon>uctHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\uctKhachHang.resx">
       <DependentUpon>uctKhachHang.cs</DependentUpon>

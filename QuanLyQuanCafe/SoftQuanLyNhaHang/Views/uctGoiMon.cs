@@ -19,9 +19,9 @@ namespace SoftQuanLyNhaHang.Views
         {
             InitializeComponent();
         }
-        
+
         public static uctGoiMon uctGM = new uctGoiMon();
-       
+
         public DataTable getBan()
         {
             DataTable dt = new DataTable();
@@ -117,7 +117,7 @@ namespace SoftQuanLyNhaHang.Views
         {
             uctBan uctban = new uctBan();
             uctban.Show();
-            
+
         }
         private void thêmBànMớiToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -150,7 +150,7 @@ namespace SoftQuanLyNhaHang.Views
         }
         public void tinhtien()
         {
-           
+
             try
             {
                 int tien = dgvGoiMon.Rows.Count;
@@ -162,10 +162,69 @@ namespace SoftQuanLyNhaHang.Views
                 lblTongTien.Text = thanhtien.ToString("#,###") + " VND";
                 lblTongTien.ForeColor = SystemColors.HotTrack;
             }
-            catch 
+            catch
             {
                 //MessageBox.Show("Bạn chưa chọn bàn thanh toán", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
+        }
+
+        private void ThemHoaDon()
+        {
+            //string _idHD = "";
+            //try
+            //{
+            //    _idBan = cmbIdBan.Text;
+            //}
+            //catch { }
+
+            //string _tenThucDon = "";
+            //try
+            //{
+            //    _tenThucDon = cmbTenThucDon.Text;
+            //}
+            //catch { }
+            //decimal _donGia = 0;
+            //try
+            //{
+            //    _donGia = Convert.ToInt32(txtDonGia.Text);
+            //}
+            //catch { }
+            //int _soLuong = 0;
+            //try
+            //{
+            //    _soLuong = Convert.ToInt32(txtSoLuong.Text);
+            //}
+            //catch { }
+            //DateTime _ThoiGian = DateTime.Now;
+
+            //try { }
+            //catch { }
+            //decimal _thanhTien = 0;
+            //try
+            //{
+            //    _thanhTien = Convert.ToInt32(txtDonGia.Text);
+            //}
+            //catch { }
+
+            //if (_soLuong == 0 || _donGia == 0)
+            //    MessageBox.Show("Hãy nhập đầy đủ thông tin");
+            //else
+            //{
+            //    int i = 0;
+            //    i = Controllers.HoaDonCtrl.InSertHoaDon(_idBan, _tenThucDon, _donGia, _soLuong, _ThoiGian, _thanhTien);
+            //    if (i > 0)
+            //    {
+            //        MessageBox.Show("Gọi món thành công");
+            //        HienThiDanhSachGM();
+            //    }
+            //    else
+            //        MessageBox.Show("Gọi món không thành công");
+            //}
+        }
+
+        private void ThemChiTietHD()
+        {
+
         }
         private void btnTinhtien_Click(object sender, EventArgs e)
         {
@@ -173,16 +232,19 @@ namespace SoftQuanLyNhaHang.Views
             {
                 DialogResult ok = new DialogResult();
                 ok = MessageBox.Show("Bạn có muốn tính tiền " + label1.Text + " Không ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-               
+
                 if (ok == DialogResult.Yes)
                 {
-                    MessageBox.Show("TỔNG SỐ TIỀN THANH TOÁN CỦA " +" [ "+ label1.Text + " ] "+ " LÀ " +lblTongTien.Text, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    MessageBox.Show("TỔNG SỐ TIỀN THANH TOÁN CỦA " + " [ " + label1.Text + " ] " + " LÀ " + lblTongTien.Text, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     tinhtien();
-                    uctMonDaGoi uctMDG = new uctMonDaGoi();
-                    nhung(uctMDG);
+                    //uctMonDaGoi uctMDG = new uctMonDaGoi();
+                    //nhung(uctMDG);
+
+                    uctHoaDon uctHD = new uctHoaDon();
+                    nhung(uctHD);
                     string _IdBan = lvDanhSachBan.SelectedItems[0].SubItems[1].Text;
                     dgvGoiMon.DataSource = Controllers.GoiMonCtrl.DeleteGoiMon(_IdBan);
-                    uctGoiMon_Load(sender, e);               
+                    //uctGoiMon_Load(sender, e);
                 }
                 else
                 {
@@ -190,7 +252,7 @@ namespace SoftQuanLyNhaHang.Views
                 }
             }
             catch { MessageBox.Show("Bạn chưa chọn bàn thanh toán", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information); }
-            uctGoiMon_Load(sender, e);
+            //uctGoiMon_Load(sender, e);
         }
         public void nhung(Control ctr)
         {
@@ -202,7 +264,7 @@ namespace SoftQuanLyNhaHang.Views
         }
         public void nhungFrom(Form frm)
         {
-          
+
             pnlGoiMon.Controls.Clear();
             frm.FormBorderStyle = FormBorderStyle.None;
             frm.TopLevel = false;
@@ -213,21 +275,21 @@ namespace SoftQuanLyNhaHang.Views
         }
         private void lvDanhSachBan_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(lvDanhSachBan.SelectedItems.Count==0)
+            if (lvDanhSachBan.SelectedItems.Count == 0)
             {
                 return;
             }
             else
             {
-                
+
             }
         }
 
         private void btnGoimon_Click(object sender, EventArgs e)
         {
             uctMonDaGoi uctMDG = new uctMonDaGoi();
-            uctGoiMon_Load(sender, e); 
-            nhung(uctMDG);   
+            uctGoiMon_Load(sender, e);
+            nhung(uctMDG);
         }
 
         private void btnMenu_Click(object sender, EventArgs e)
