@@ -168,58 +168,55 @@ namespace SoftQuanLyNhaHang.Views
             }
         }
 
-        private void ThemHoaDon()
+        private void ThemHoaDon(string idHD, string idNhanVien, string idBan, DateTime NgayThang, string dienGiai, Decimal tongtien)
         {
-            //string _idHD = "";
-            //try
-            //{
-            //    _idBan = cmbIdBan.Text;
-            //}
-            //catch { }
+            string _idHD = "";
+            try
+            {
+                _idHD = Models.connection.ExcuteScalar(String.Format("select IdHoaDon= dbo.fcgetIdHoaDon()"));
 
-            //string _tenThucDon = "";
-            //try
-            //{
-            //    _tenThucDon = cmbTenThucDon.Text;
-            //}
-            //catch { }
-            //decimal _donGia = 0;
-            //try
-            //{
-            //    _donGia = Convert.ToInt32(txtDonGia.Text);
-            //}
-            //catch { }
-            //int _soLuong = 0;
-            //try
-            //{
-            //    _soLuong = Convert.ToInt32(txtSoLuong.Text);
-            //}
-            //catch { }
-            //DateTime _ThoiGian = DateTime.Now;
+            }
+            catch { }
+            string _idBan = "";
+            try
+            {
+                _idBan = "";
+            }
+            catch { }
+            string _idNhanVien = "";
+            try
+            {
+                _idNhanVien = "";
+            }
+            catch { }
+            string DienGiai = "";
+            try
+            {
+                DienGiai = "";
+            }
+            catch { }
 
-            //try { }
-            //catch { }
-            //decimal _thanhTien = 0;
-            //try
-            //{
-            //    _thanhTien = Convert.ToInt32(txtDonGia.Text);
-            //}
-            //catch { }
+            DateTime _ThoiGian = DateTime.Now;
 
-            //if (_soLuong == 0 || _donGia == 0)
-            //    MessageBox.Show("Hãy nhập đầy đủ thông tin");
-            //else
-            //{
-            //    int i = 0;
-            //    i = Controllers.HoaDonCtrl.InSertHoaDon(_idBan, _tenThucDon, _donGia, _soLuong, _ThoiGian, _thanhTien);
-            //    if (i > 0)
-            //    {
-            //        MessageBox.Show("Gọi món thành công");
-            //        HienThiDanhSachGM();
-            //    }
-            //    else
-            //        MessageBox.Show("Gọi món không thành công");
-            //}
+            try { }
+            catch { }
+            decimal _thanhTien = 0;
+            try
+            {
+                _thanhTien = Convert.ToInt32(lblTongTien.Text);
+            }
+            catch { }
+
+            int i = 0;
+            //i = Controllers.HoaDonCtrl.InSertHoaDon(_idHD, _idNhanVien, _idBan, _ThoiGian, DienGiai, _thanhTien);
+            i = Controllers.HoaDonCtrl.InSertHoaDon(idHD, idNhanVien, idBan, NgayThang, dienGiai, tongtien);
+            if (i > 0)
+            {
+                MessageBox.Show("Thiết lập hóa đơn thành công");
+            }
+            else
+                MessageBox.Show("Thiết lập hóa đơn không thành công");
+
         }
 
         private void ThemChiTietHD()
@@ -242,6 +239,8 @@ namespace SoftQuanLyNhaHang.Views
 
                     uctHoaDon uctHD = new uctHoaDon();
                     nhung(uctHD);
+
+                    //ThemHoaDon(Models.connection.ExcuteScalar(String.Format("select IdHoaDon= dbo.fcgetIdHoaDon()")),"", lvDanhSachBan.SelectedItems[0].SubItems[1].Text, DateTime.Now,"", Convert.ToInt32(lblTongTien.Text));
                     string _IdBan = lvDanhSachBan.SelectedItems[0].SubItems[1].Text;
                     dgvGoiMon.DataSource = Controllers.GoiMonCtrl.DeleteGoiMon(_IdBan);
                     //uctGoiMon_Load(sender, e);

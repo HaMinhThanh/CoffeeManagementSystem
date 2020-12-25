@@ -69,6 +69,12 @@
     <Compile Include="Models\PhanQuyenMod.cs" />
     <Compile Include="Models\ThucDonMod.cs" />
     <Compile Include="Models\UserControl.cs" />
+    <Compile Include="Views\uctThuChi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\uctThuChi.Designer.cs">
+      <DependentUpon>uctThuChi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\uctHoaDon.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -239,6 +245,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\uctThucDon.resx">
       <DependentUpon>uctThucDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\uctThuChi.resx">
+      <DependentUpon>uctThuChi.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">

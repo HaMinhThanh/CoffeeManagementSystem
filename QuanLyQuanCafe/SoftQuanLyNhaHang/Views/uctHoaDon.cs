@@ -29,7 +29,13 @@ namespace SoftQuanLyNhaHang
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
-            lblTienThua.Text = (50000 - numTienNhan.Value).ToString() + " VNĐ";
+            Decimal tien = Convert.ToInt32(lblTongTien.Text);
+            lblTienThua.Text = (tien - numTienNhan.Value).ToString() + " VNĐ";
+        }
+
+        private void uctHoaDon_Load(object sender, EventArgs e)
+        {
+            txtIDHoaDon.Text = Models.connection.ExcuteScalar(string.Format("select IdHoaDon= dbo.fcgetIdHoaDon()"));
         }
     }
 }
