@@ -107,7 +107,7 @@
             // pnlGoiMon
             // 
             this.pnlGoiMon.Location = new System.Drawing.Point(636, 306);
-            this.pnlGoiMon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlGoiMon.Margin = new System.Windows.Forms.Padding(4);
             this.pnlGoiMon.Name = "pnlGoiMon";
             this.pnlGoiMon.Size = new System.Drawing.Size(1045, 493);
             this.pnlGoiMon.TabIndex = 16;
@@ -118,7 +118,7 @@
             this.lvDanhSachBan.HideSelection = false;
             this.lvDanhSachBan.LargeImageList = this.imageList1;
             this.lvDanhSachBan.Location = new System.Drawing.Point(0, 14);
-            this.lvDanhSachBan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lvDanhSachBan.Margin = new System.Windows.Forms.Padding(4);
             this.lvDanhSachBan.Name = "lvDanhSachBan";
             this.lvDanhSachBan.Size = new System.Drawing.Size(627, 785);
             this.lvDanhSachBan.TabIndex = 0;
@@ -128,74 +128,78 @@
             // 
             // btnMenu
             // 
+            this.btnMenu.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnMenu.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMenu.ImageIndex = 3;
             this.btnMenu.ImageList = this.imageList1;
             this.btnMenu.Location = new System.Drawing.Point(741, 228);
-            this.btnMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMenu.Margin = new System.Windows.Forms.Padding(4);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(160, 71);
             this.btnMenu.TabIndex = 44;
             this.btnMenu.Text = "Menu";
             this.btnMenu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnMenu.UseVisualStyleBackColor = true;
+            this.btnMenu.UseVisualStyleBackColor = false;
             this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // btnIn
             // 
+            this.btnIn.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnIn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIn.Image = ((System.Drawing.Image)(resources.GetObject("btnIn.Image")));
             this.btnIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnIn.Location = new System.Drawing.Point(1245, 228);
-            this.btnIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnIn.Margin = new System.Windows.Forms.Padding(4);
             this.btnIn.Name = "btnIn";
             this.btnIn.Size = new System.Drawing.Size(160, 71);
             this.btnIn.TabIndex = 41;
             this.btnIn.Text = "In hóa đơn";
             this.btnIn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnIn.UseVisualStyleBackColor = true;
+            this.btnIn.UseVisualStyleBackColor = false;
             this.btnIn.Click += new System.EventHandler(this.btnIn_Click);
             // 
             // btnGoimon
             // 
+            this.btnGoimon.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnGoimon.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGoimon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGoimon.ImageKey = "catering (1).png";
             this.btnGoimon.ImageList = this.imageList1;
             this.btnGoimon.Location = new System.Drawing.Point(909, 228);
-            this.btnGoimon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGoimon.Margin = new System.Windows.Forms.Padding(4);
             this.btnGoimon.Name = "btnGoimon";
             this.btnGoimon.Size = new System.Drawing.Size(160, 71);
             this.btnGoimon.TabIndex = 42;
             this.btnGoimon.Text = "Gọi món";
             this.btnGoimon.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnGoimon.UseVisualStyleBackColor = true;
+            this.btnGoimon.UseVisualStyleBackColor = false;
             this.btnGoimon.Click += new System.EventHandler(this.btnGoimon_Click);
             // 
             // btnTinhtien
             // 
+            this.btnTinhtien.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnTinhtien.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnTinhtien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTinhtien.ImageKey = "21216-200.png";
             this.btnTinhtien.ImageList = this.imageList1;
             this.btnTinhtien.Location = new System.Drawing.Point(1077, 228);
-            this.btnTinhtien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTinhtien.Margin = new System.Windows.Forms.Padding(4);
             this.btnTinhtien.Name = "btnTinhtien";
             this.btnTinhtien.Size = new System.Drawing.Size(160, 71);
             this.btnTinhtien.TabIndex = 43;
             this.btnTinhtien.Text = "Tính tiền";
             this.btnTinhtien.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnTinhtien.UseVisualStyleBackColor = true;
+            this.btnTinhtien.UseVisualStyleBackColor = false;
             this.btnTinhtien.Click += new System.EventHandler(this.btnTinhtien_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dgvGoiMon);
             this.groupBox1.Location = new System.Drawing.Point(636, 4);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(948, 153);
             this.groupBox1.TabIndex = 45;
             this.groupBox1.TabStop = false;
@@ -209,7 +213,7 @@
             this.dgvGoiMon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvGoiMon.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.dgvGoiMon.Location = new System.Drawing.Point(0, 0);
-            this.dgvGoiMon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvGoiMon.Margin = new System.Windows.Forms.Padding(4);
             this.dgvGoiMon.Name = "dgvGoiMon";
             this.dgvGoiMon.ReadOnly = true;
             this.dgvGoiMon.RowHeadersWidth = 51;
@@ -221,9 +225,9 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.lblTongTien);
             this.groupBox2.Location = new System.Drawing.Point(1167, 164);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(417, 41);
             this.groupBox2.TabIndex = 46;
             this.groupBox2.TabStop = false;
@@ -264,7 +268,7 @@
             this.Controls.Add(this.pnlGoiMon);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lvDanhSachBan);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "uctGoiMon";
             this.Size = new System.Drawing.Size(1685, 803);
             this.Load += new System.EventHandler(this.uctGoiMon_Load);

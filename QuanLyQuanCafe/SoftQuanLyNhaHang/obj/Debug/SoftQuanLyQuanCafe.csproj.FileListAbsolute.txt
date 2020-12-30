@@ -24,4 +24,4 @@ C:\Users\minht\OneDrive\Desktop\CoffeeManagementSystem\QuanLyQuanCafe\SoftQuanLy
 C:\Users\minht\OneDrive\Desktop\CoffeeManagementSystem\QuanLyQuanCafe\SoftQuanLyNhaHang\obj\Debug\SoftQuanLyNhaHang.pdb
 C:\Users\minht\OneDrive\Desktop\CoffeeManagementSystem\QuanLyQuanCafe\SoftQuanLyNhaHang\obj\Debug\SoftQuanLyNhaHang.uctMain.resources
 C:\Users\minht\OneDrive\Desktop\CoffeeManagementSystem\QuanLyQuanCafe\SoftQuanLyNhaHang\obj\Debug\SoftQuanLyNhaHang.uctHoaDon.resources
-C:\Users\minht\OneDrive\Desktop\CoffeeManagementSystem\QuanLyQuanCafe\SoftQuanLyNhaHang\obj\Debug\SoftQuanLyNhaHang.uctThuChi.resources
+C:\Users\minht\OneDrive\Desktop\CoffeeManagementSystem\QuanLyQuanCafe\SoftQuanLyNhaHang\obj\Debug\SoftQuanLyNhaHang.Views.uctThuChi.resources

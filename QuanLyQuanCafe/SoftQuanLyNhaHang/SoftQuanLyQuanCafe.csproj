@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\BanCtrl.cs" />
+    <Compile Include="Controllers\CTHDCtrl.cs" />
     <Compile Include="Controllers\DangNhap.cs" />
     <Compile Include="Controllers\GoiMonCtrl.cs" />
     <Compile Include="Controllers\HoaDonCtrl.cs" />
@@ -55,10 +56,13 @@
     <Compile Include="Controllers\KhuVucCtrl.cs" />
     <Compile Include="Controllers\LoaiThucDonCtrl.cs" />
     <Compile Include="Controllers\NhanVienCtrl.cs" />
+    <Compile Include="Controllers\NhapHangCtrl.cs" />
     <Compile Include="Controllers\PhanQuyenCtrl.cs" />
+    <Compile Include="Controllers\ThongKeCtrl.cs" />
     <Compile Include="Controllers\ThucDonCtrl.cs" />
     <Compile Include="Models\BanMod.cs" />
     <Compile Include="Models\connection.cs" />
+    <Compile Include="Models\CTHDMod.cs" />
     <Compile Include="Models\DangNhap.cs" />
     <Compile Include="Models\GoiMonMod.cs" />
     <Compile Include="Models\HoaDonMod.cs" />
@@ -66,7 +70,9 @@
     <Compile Include="Models\KhuVucMod.cs" />
     <Compile Include="Models\LoaiThucDonMod.cs" />
     <Compile Include="Models\NhanVienMod.cs" />
+    <Compile Include="Models\NhapHangMod.cs" />
     <Compile Include="Models\PhanQuyenMod.cs" />
+    <Compile Include="Models\ThongKeMod.cs" />
     <Compile Include="Models\ThucDonMod.cs" />
     <Compile Include="Models\UserControl.cs" />
     <Compile Include="Views\uctThuChi.cs">
@@ -333,6 +339,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Go-back-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SoftQuanLyNhaHang\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gear-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floppy-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Go-back-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loupe-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Programming-Show-Property-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

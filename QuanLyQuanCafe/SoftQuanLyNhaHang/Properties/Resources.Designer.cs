@@ -93,6 +93,16 @@ namespace SoftQuanLyNhaHang.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("add-icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Admin_icon {
             get {
                 object obj = ResourceManager.GetObject("Admin-icon", resourceCulture);
@@ -133,9 +143,29 @@ namespace SoftQuanLyNhaHang.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap delete_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("delete-icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap floppy_icon {
             get {
                 object obj = ResourceManager.GetObject("floppy-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap floppy_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("floppy-icon1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,6 +203,16 @@ namespace SoftQuanLyNhaHang.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Gear_icon2 {
+            get {
+                object obj = ResourceManager.GetObject("Gear-icon2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Go_back_icon {
             get {
                 object obj = ResourceManager.GetObject("Go-back-icon", resourceCulture);
@@ -193,9 +233,29 @@ namespace SoftQuanLyNhaHang.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Go_back_icon2 {
+            get {
+                object obj = ResourceManager.GetObject("Go-back-icon2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap help {
             get {
                 object obj = ResourceManager.GetObject("help", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Loupe_icon {
+            get {
+                object obj = ResourceManager.GetObject("Loupe-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,6 +286,16 @@ namespace SoftQuanLyNhaHang.Properties {
         internal static System.Drawing.Bitmap menu {
             get {
                 object obj = ResourceManager.GetObject("menu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Programming_Show_Property_icon {
+            get {
+                object obj = ResourceManager.GetObject("Programming-Show-Property-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -114,7 +114,7 @@ namespace SoftQuanLyNhaHang.Views
 
         private void hóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //ThemTabPages(Views.uctHoaDon.uctHD, 4, "Hóa đơn");
+            ThemTabPages(Views.uctThuChi.uctTC, 4, "Hóa đơn");
         }
 
         private void phânQuyềnSửDụngToolStripMenuItem_Click(object sender, EventArgs e)

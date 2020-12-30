@@ -36,6 +36,8 @@ namespace SoftQuanLyNhaHang
         private void uctHoaDon_Load(object sender, EventArgs e)
         {
             txtIDHoaDon.Text = Models.connection.ExcuteScalar(string.Format("select IdHoaDon= dbo.fcgetIdHoaDon()"));
+            txtIDNhanVien.Text = "NV00000001";
+            dtpNgayLap.Value = DateTime.Now;
         }
     }
 }

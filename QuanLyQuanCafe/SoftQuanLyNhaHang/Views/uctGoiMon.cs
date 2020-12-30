@@ -168,22 +168,22 @@ namespace SoftQuanLyNhaHang.Views
             }
         }
 
-        private void ThemHoaDon(string idHD, string idNhanVien, string idBan, DateTime NgayThang, string dienGiai, Decimal tongtien)
+        public void ThemHoaDon(string idHD, string idNhanVien, string idBan, DateTime NgayThang, string dienGiai, Decimal tongtien)
         {
             string _idHD = "";
             try
             {
-                _idHD = Models.connection.ExcuteScalar(String.Format("select IdHoaDon= dbo.fcgetIdHoaDon()"));
+                _idHD = idHD;
 
             }
             catch { }
             string _idBan = "";
             try
             {
-                _idBan = "";
+                _idBan = idBan;
             }
             catch { }
-            string _idNhanVien = "";
+            string _idNhanVien = idNhanVien;
             try
             {
                 _idNhanVien = "";
@@ -192,15 +192,15 @@ namespace SoftQuanLyNhaHang.Views
             string DienGiai = "";
             try
             {
-                DienGiai = "";
+                DienGiai = dienGiai;
             }
             catch { }
 
-            DateTime _ThoiGian = DateTime.Now;
+            DateTime _ThoiGian = NgayThang;
 
             try { }
             catch { }
-            decimal _thanhTien = 0;
+            decimal _thanhTien = tongtien;
             try
             {
                 _thanhTien = Convert.ToInt32(lblTongTien.Text);
@@ -234,16 +234,17 @@ namespace SoftQuanLyNhaHang.Views
                 {
                     MessageBox.Show("TỔNG SỐ TIỀN THANH TOÁN CỦA " + " [ " + label1.Text + " ] " + " LÀ " + lblTongTien.Text, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     tinhtien();
-                    //uctMonDaGoi uctMDG = new uctMonDaGoi();
-                    //nhung(uctMDG);
+                    uctMonDaGoi uctMDG = new uctMonDaGoi();
+                    nhung(uctMDG);
 
-                    uctHoaDon uctHD = new uctHoaDon();
-                    nhung(uctHD);
+                    //uctHoaDon uctHD = new uctHoaDon();
+                    //nhung(uctHD);
 
                     //ThemHoaDon(Models.connection.ExcuteScalar(String.Format("select IdHoaDon= dbo.fcgetIdHoaDon()")),"", lvDanhSachBan.SelectedItems[0].SubItems[1].Text, DateTime.Now,"", Convert.ToInt32(lblTongTien.Text));
                     string _IdBan = lvDanhSachBan.SelectedItems[0].SubItems[1].Text;
                     dgvGoiMon.DataSource = Controllers.GoiMonCtrl.DeleteGoiMon(_IdBan);
-                    //uctGoiMon_Load(sender, e);
+                    //ThemHoaDon(Models.connection.ExcuteScalar(String.Format("select IdHoaDon= dbo.fcgetIdHoaDon()")), "", lvDanhSachBan.SelectedItems[0].SubItems[1].Text, DateTime.Now, "", Convert.ToInt32(lblTongTien.Text));
+                    uctGoiMon_Load(sender, e);
                 }
                 else
                 {
@@ -251,7 +252,7 @@ namespace SoftQuanLyNhaHang.Views
                 }
             }
             catch { MessageBox.Show("Bạn chưa chọn bàn thanh toán", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information); }
-            //uctGoiMon_Load(sender, e);
+            uctGoiMon_Load(sender, e);
         }
         public void nhung(Control ctr)
         {

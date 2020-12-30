@@ -124,20 +124,35 @@
   <data name="front-office-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\front-office-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="floppy-icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\floppy-icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="main" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\main.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="floppy-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\floppy-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="add-icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coffee-Cup-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coffee-Cup-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Go-back-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Go-back-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tải xuống" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tải xuống.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gear-icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gear-icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tải xuống1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tải xuống1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Coffee-Cup-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Coffee-Cup-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="floppy-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\floppy-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Gear-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gear-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,23 +160,26 @@
   <data name="chart-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chart-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Loupe-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Loupe-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="delete-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Admin-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Admin-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="delete-icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete-icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="add-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Actions-dialog-ok-apply-icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Actions-dialog-ok-apply-icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tải xuống" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tải xuống.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Go-back-icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Go-back-icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="man" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\man.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,10 +187,13 @@
   <data name="Gear-icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gear-icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Go-back-icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Go-back-icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Programming-Show-Property-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Programming-Show-Property-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
